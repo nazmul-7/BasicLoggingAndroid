@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_gradient"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".MainActivity_3">
+
+
+    <Button
+        android:id="@+id/goalbtnId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Goal"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:contextClickable="true"/>
+
+
+     <Button
+        android:id="@+id/dairybtnId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Diary"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:contextClickable="true"/>
+
+
+     <Button
+        android:id="@+id/healthtipsbtnId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Health Tips"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:contextClickable="true"/>
+
+
+     <Button
+        android:id="@+id/videobtnId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Video"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:contextClickable="true"/>
+
+
+
+</LinearLayout>
